@@ -1,6 +1,6 @@
 @Library('my-shared-library') _
 
-dockerDeliveryPipeline(
+commonPipeline(
     appName: 'my-web-app',
     hostPort: '8085'
 )
